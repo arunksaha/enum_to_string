@@ -1,0 +1,2 @@
+set -x
+gcc -std=c99 -ansi -pedantic -Wall -W -Wextra -Werror ./*.c -o ./exe && ./exe && /bin/rm ./exe
